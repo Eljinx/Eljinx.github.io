@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eljinx's Profile</title>
+    <link rel = "icon" href = "essentials/LOGO.png" type = "image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 500, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">EL<h3>JINX</h3></a>
+
+        <nav class="navbar">
+            <a href="#Home" style="--i:1" class="active">Home</a>
+            <a href="#Services" style="--i:2">Services</a>
+            <a href="#Portfolio" style="--i:4">Portfolio</Code></a>
+            <a href="#Contact" style="--i:5">Contact</Code></a>
+        </nav>
+    </header>
+        <section id="Home" class="home">
+            <div class="home-content">
+                <h3>Hello, It's Me </h3>
+                <h1>Elghene Maglaque</h1>
+                <h3>and I'm a <span></span>
+                </h3>
+                <p>Expert freelance web developer and programmer offering top-notch solutions. 
+                    Proficient in various programming languages and frameworks, 
+                    delivering customized websites, applications, and robust code with exceptional attention to detail.
+                </p>
+                <div class="home-sci">
+                    <a href="https://www.facebook.com/james.maglaque.58" target="_blank" style="--i:5"><i
+                            class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/elghenemaglaque?igshid=MzNINGNkZWQ4Mg==" target="_blank"
+                        style="--i:6"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://elghenemaglaque@gmail.com" target="_blank" style="--i:7"><i
+                            class="bx bxl-gmail"></i></a>
+                    <a href="#T" style="--i:8"><i class="bx bxl-twitter"></i></a>
+                </div>
+                <a href="#About" class="btn-box" download="essentials/MyCV.pdf">Download CV</a>
+            </div>
+
+            <div class="photo">
+                <img src="essentials/me.gif" alt="">
+            </div>
+            <script src="main.js"></script>
+            <script src="query.js"></script>
+        </section>
+
+        <section id="Services" class="services">
+            <h2 class="heading">My <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="service-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developement</h3>
+                    <p>You can ask for your customized website according to your business
+                        preference or hobby. A good website is a good marketing strategy.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="service-box">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Data Analytics</h3>
+                    <p>Data in business are essential beings in order to predict your
+                        future sales, demand, and capital.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="service-box">
+                    <i class='bx bxl-android'></i>
+                    <h3>Android Application</h3>
+                    <p>Tell me your preference and I'll make you th perfect application
+                        that will help and satisfy you to your work or business.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="service-box">
+                    <i class='bx bx-data'></i>
+                    <h3>Database Management</h3>
+                    <p>Keeping your data updated and organized will probably help you
+                        to create, plan, and strategize your business opportunity.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="service-box">
+                    <i class='bx bx-lock-alt'></i>
+                    <h3>Cyber Security</h3>
+                    <p>Having your business websites platform is dangerous from online threats
+                        and some malicious attacks. Let's do some penetration test.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="service-box">
+                    <i class='bx bx-wifi'></i>
+                    <h3>Internet of <br>Things</h3>
+                    <p>I create devices that is IoT related and can be cultivated through mobile phones,
+                        laptops, and computers. It is essential for you and your business.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="Portfolio">
+                <h2 class="heading">Latest <span>Project</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="essentials/pic1.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>This website is for fun only.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="essentials/pic2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Android App</h4>
+                        <p>This app is for task organizer with notification.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="essentials/pic3.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Fingerlings Counter Machine</h4>
+                        <p>This machine counts the fingerlings to be sold.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="essentials/pic4.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Development Soon</h4>
+                        <p>This project is for future purposes.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="essentials/pic4.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Development Soon</h4>
+                        <p>This project is for future purposes.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="essentials/pic4.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Development Soon</h4>
+                        <p>This project is for future purposes.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="contact" id="Contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Eljinx | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
